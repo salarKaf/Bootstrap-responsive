@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: Rubik;
+    src: url("assets/fonts/Rubik_0.otf");
+}
+body{
+    background-color:#3B2A9F;
+    overflow-x: hidden;
+}
+header{
+    height:100px ;
+    background-color:#3B2A9F;
+    position: relative;
+    z-index:2;
+}
+
+.Logo{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 44.51px;
+
+}
+.nav-link{
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.btn.btn-secondary{
+    background-color: #FA8305;
+}
+.btn.btn-secondary:hover{
+    opacity: 0.8;
+}
+
+.text1{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.04px;
+    color: #FA8305;
+
+}
+.text2{
+    /* font-family: Poppins و sans-serif; */
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 77.6px;
+    color: white;
+}
+.text3{
+    font-family: Poppins ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: white;
+}
+.btn-Myprimary
+{
+    background-color: #5141AA;
+    border-radius: 10px 10px;
+
+}
+.btn-Myprimary:hover{
+    opacity:0.6;
+}
+.btn-size{
+    width: 139px;
+    height: 57px;
+
+}
+.text-currently{
+    font-family: Rubik , sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 58.13px;
+
+}
+.Rectangle22 button{
+    font-family: Rubik , sans-serif;
+    font-size: 20px;
+    line-height: 37.5px;
+}
+.card-title{
+    font-family: Rubik ,sans-serif;
+    font-size: 22px;
+    line-height: 41.25px;
+}
+
+@media screen and (min-width: 768px) {
+    img.joy-stick1{
+        margin-left: 247px;
+    }
+    div.text-above-pic{
+        margin-top: 90px;
+        margin-bottom: 48px;
+
+    }
+    div.text-under-pic-style{
+        margin-top: 75px;
+    }
+    div.Black-box{
+        height: 189px;
+    }
+    div.Black-box{
+        height: 280px;
+    }
+    footer{
+        margin-top: 86px; 
+        height: 574px;
+        
+    }
+    div.LogoFooter{
+        height: 37px;
+    }
+
+}
+@media screen and (max-width:768px)
+{
+    div.text-above-pic{
+        margin-top: 60px;
+        margin-bottom: 23px;
+    }
+    footer{
+        margin-top: 58px; 
+        height: 630px;
+
+    }
+    div.Black-box{
+        height: 297px;
+    }
+    div.LogoFooter{
+        height: 48.12px;
+        margin-top: 36px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    img.joy-stick1{
+        position: absolute;
+        left: 550px;
+        top: 0;
+    }
+    div.nav-me-lg{
+        margin-right:100px;
+     }
+
+    div.space-element{
+        margin-left: 114px;
+        margin-top: 80px;
+    }
+    a.me-lg-6{
+        margin-left: 88px;
+    }
+    div.text-above-pic{
+        margin-top: 180px;
+        margin-bottom: 57px;
+    }
+    div.text-under-pic-style{
+        margin-top: 129px;
+    }
+    div.text-above-pic{
+        margin-top: 60px;
+        margin-bottom: 23px;
+    }
+
+    footer{
+        margin-top: 163px; 
+        height: 376px;
+    }
+    div.Black-box{
+        height: 189px;
+    }
+    div.LogoFooter{
+        height: 37px;
+    }
+    div.lorem_top{
+        margin-bottom: 74px;
+    }
+
+}
+
+.btn-lg{
+    width: 131.66px;
+    height: 41.34px;
+}
+.p-size{
+    font-family: Poppins , sans-serif;
+    font-size:13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+}
+.bg-p{
+    background-color:#3B2A9F;
+
+}
+.text-under-pic-style p{
+    font-family: Poppins ,sans-serif;
+    font-size: 35px;
+    line-height: 65.63px;
+}
+.EmailInput{
+    font-family: Poppins ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19.5px;
+
+}
+.continueButton{
+    font-family: Poppins ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+
+}
+.LogoFooter{
+    font-family: Poppins ,sans-serif;
+    font-size: 24px;
+    line-height: 36.84px;
+    font-weight: 800;
+}
+.Lorem{
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.circle{
+    box-shadow: 0px 4px 14px 0px #00000026;
+}
+.ContactUsTitle{
+    font-family: Poppins , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+
+}
+.footer ul li{
+    font-family: Poppins , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.81px;
+
+}
+.AboutUs{
+    font-family: Poppins , sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+
+}
+.Down-text{
+    font-family: Poppins , sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24.78px;
+}
+
+.Down-text span{
+    font-family: Poppins , sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24.78px;
+
+
+}
